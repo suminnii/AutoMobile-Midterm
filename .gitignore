@@ -1,0 +1,43 @@
+# ===== KITTI 데이터셋 (용량 큼, GitHub에 올리지 않음) =====
+dataset/
+data_odometry_*.zip
+
+# ===== 결과 이미지 (용량 큼) =====
+results/**/mask_*.png
+results/**/prob_*.png
+# overlay 일부는 보고서에 포함되도록 GitHub에도 올려도 됨 (선택)
+# 만약 모든 overlay도 빼려면 아래 주석 해제:
+# results/**/overlay_*.png
+
+# ===== YOLO 모델 가중치 (용량 큼) =====
+*.pt
+*.onnx
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.ipynb_checkpoints/
+
+# ===== Jupyter =====
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# ===== 가상환경 =====
+venv/
+env/
+.venv/
+.env
+
+# ===== OS / IDE =====
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ===== 임시 파일 =====
+*.tmp
+*.log
